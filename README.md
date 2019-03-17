@@ -7,7 +7,7 @@ A sample inventory file has been provided in [Ansible playbook directory](ansibl
 your inventory should be defined as:
 
 ```
-[node-windows]
+[node-linux]
 #xxserverIPxx windows_node_hostname=xxxxx
 
 ```
