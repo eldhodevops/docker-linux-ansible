@@ -16,7 +16,7 @@ your inventory should be defined as:
  All the sample files has been provided in [Ansible playbook group_var directory](ansible/group_vars).
 you need to edit with example below
 
-- Edit windows username and password inside the file group_vars/node-linux.yml
+- Edit username and password inside the file group_vars/node-linux.yml
 ```
 ansible_user: xxusernamexx
 # Ensure you don't have ansible_ssh_pass var set in your own group_vars/all.yml, it will overwrite this.
